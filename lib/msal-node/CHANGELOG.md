@@ -1,8 +1,27 @@
 # Change Log - @azure/msal-node
 
-This log was last generated on Mon, 03 Apr 2023 21:29:31 GMT and should not be manually modified.
+This log was last generated on Tue, 25 Apr 2023 23:46:05 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 2.0.0
+
+Tue, 25 Apr 2023 23:46:05 GMT
+
+### Major changes
+
+- Exception is thrown in acquireTokenByClientCredential if tenantId is missing #5805 (rginsburg@microsoft.com)
+- Migrate from tsdx to use rollup and jest directly for msal-node #5818 (hemoral@microsoft.com)
+- Move node clients from msal-common to msal-node #5788 (kshabelko@microsoft.com)
+- Bump @azure/msal-common to v13.0.0
+
+### Minor changes
+
+- Export Serializer and Deserializer from msal-node #5931 (kshabelko@microsoft.com)
+
+### Patches
+
+- Remove `null` from `acquireTokenSilent` return type #5912 (thomas.norling@microsoft.com)
 
 ## 1.17.0
 
